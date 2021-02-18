@@ -15,8 +15,8 @@ public class MovieResources
 
 
     @RequestMapping("/{movieId}")
-    public List<Movie> getMovieInfo( @PathVariable("movieId") String movieId){
-    return Collections.singletonList( new Movie(movieId,"Transformers") );
+    public Movie getMovieInfo( @PathVariable("movieId") String movieId){
+    return  new Movie(movieId,"Transformers");
 
     }
 

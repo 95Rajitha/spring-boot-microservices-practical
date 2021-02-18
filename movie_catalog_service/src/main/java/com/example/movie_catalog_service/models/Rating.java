@@ -1,12 +1,13 @@
-package com.example.movie_rating_service.Model;
+package com.example.movie_catalog_service.models;
 
 public class Rating
 {
     private String movieId;
     private int rating;
 
-    public Rating()
+    public Rating(  )
     {
+
     }
 
     public Rating( String movieId, int rating){

@@ -1,4 +1,4 @@
-package com.example.movie_info_service.models;
+package com.example.movie_catalog_service.models;
 
 public class Movie
 {
